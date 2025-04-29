@@ -5,17 +5,17 @@
     display: flex;
     justify-content: center;
     gap: 40px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* slight shadow bottom */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); 
 }
   
 .filter-button {
     background: none;
     border: none;
     font-size: 16px;
-    font-weight: 600; /* 🔥 more bold */
+    font-weight: 600; 
     color: white;
     cursor: pointer;
-    transition: transform 0.2s ease; /* 💥 use transform instead of font-size */
+    transition: transform 0.2s ease; 
     display: inline-block;
 }
   

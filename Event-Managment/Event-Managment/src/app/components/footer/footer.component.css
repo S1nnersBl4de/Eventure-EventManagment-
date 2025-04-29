@@ -1,6 +1,6 @@
-/* Footer Main */
+
 .footer {
-  background-color: #5a0000; /* DARKER red background */
+  background-color: #5a0000; 
   color: white;
   padding: 4px 60px 20px 60px;
   display: flex;
@@ -9,7 +9,7 @@
   align-items: center;
 }
 
-/* Footer content layout */
+
 .footer-content {
   width: 100%;
   display: flex;
@@ -19,7 +19,7 @@
   margin-bottom: 20px;
 }
 
-/* Footer sections */
+
 .footer-section {
   display: flex;
   flex-direction: column;
@@ -34,26 +34,26 @@
   overflow: hidden;
 }
 
-/* Logo */
+
 .footer-logo {
     height: 200px;
     width: auto;
     object-fit: contain;
 }
 
-/* Slogan */
+
 .slogan {
-  font-size: 16px; /* Bigger slogan text */
+  font-size: 16px;
   color: white;
   text-align: center;
   margin-top: 25px;
 }
 
-/* Quick Links */
+
 .links-section {
   display: flex;
-  flex-direction: row; /* Now horizontal row */
-  gap: 30px; /* space between links */
+  flex-direction: row; 
+  gap: 30px;
   align-items: center;
   justify-content: center;
 }
@@ -66,17 +66,17 @@
 }
 
 .links-section a:hover {
-  color: #ffc0cb; /* light pink on hover */
+  color: #ffc0cb; 
 }
 
-/* Social Media Section */
+
 .social-section {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* Bottom copyright */
+
 .footer-bottom {
   width: 100%;
   text-align: center;
@@ -85,7 +85,7 @@
   color: #f0f0f0;
 }
 
-/* Uiverse Social Icons (same you gave) */
+
 ul {
   list-style: none;
 }
@@ -184,7 +184,7 @@ ul {
   background-color: #ff0000;
 }
 
-/* Responsive footer */
+
 @media (max-width: 768px) {
   .footer-content {
     flex-direction: column;

@@ -33,7 +33,7 @@ export class EventdetailComponent implements OnInit {
     this.fetchEvent(eventId);
     this.fetchTicket(eventId);
 
-    // Generate fallback price if needed
+ 
     this.randomTicketPrice = Math.floor(Math.random() * (300 - 20 + 1)) + 20;
   }
 

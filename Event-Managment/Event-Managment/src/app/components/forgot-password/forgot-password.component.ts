@@ -21,7 +21,7 @@ export class ForgotPasswordComponent {
       next: (response) => {
         console.log('Request reset successful:', response);
         alert('Password reset code sent to your email!');
-        this.router.navigate(['/reset-password']); // 👈 Redirect to reset password page
+        this.router.navigate(['/reset-password']); 
       },
       error: (error) => {
         console.error('Request reset failed:', error);

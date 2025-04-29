@@ -24,7 +24,7 @@ export class UthorizationComponent {
     this.authService.login(this.loginData).subscribe({
       next: (response) => {
                                              
-        const isAdmin = this.loginData.email === 'lashatinikashvili29@gmail.com'; 
+        const isAdmin = this.loginData.email === 'lashatinikashvili29@gmail.com'; //forcing admin account to localstorage
   
         const userData = {
           email: this.loginData.email,

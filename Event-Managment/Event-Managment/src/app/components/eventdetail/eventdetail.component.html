@@ -6,7 +6,7 @@
   </div>
 
   <div class="event-info-wrapper">
-    <!-- LEFT SIDE -->
+
     <div class="event-left">
       <h1>{{ event.name }}</h1>
       <p class="description" [innerText]="event.description"></p>
@@ -17,7 +17,7 @@
       </div>
     </div>
 
-    <!-- RIGHT SIDE -->
+
     <div class="event-right">
       <div class="date-time">
         <span>{{ event.startDateDay }}</span> /
@@ -30,7 +30,7 @@
         Organized by: <strong>{{ event.organizerName }}</strong>
       </div>
 
-      <!-- 🎟️ Ticket Button -->
+
       <button class="ticket-button" (click)="showPurchasePopup = true">
         Ticket Price: {{ ticket?.price || randomTicketPrice }}₾
       </button>
@@ -38,7 +38,7 @@
   </div>
 </div>
 
-<!-- 💬 Purchase Modal -->
+
 <div class="purchase-modal" *ngIf="showPurchasePopup">
   <div class="modal-content">
     <h2>Buy Ticket</h2>

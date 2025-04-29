@@ -21,7 +21,7 @@ export class EventgridComponent implements OnInit {
     this.eventservice.getAllEvents().subscribe({
       next: (data) => {
         this.events = data;
-        this.filteredEvents = data; // 👈 display all initially
+        this.filteredEvents = data; 
         this.randomTicketPrice = Math.floor(Math.random() * (300 - 20 + 1)) + 20;
       },
       error: (error) => {

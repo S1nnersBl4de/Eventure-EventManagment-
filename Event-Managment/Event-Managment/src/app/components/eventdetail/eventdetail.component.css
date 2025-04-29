@@ -14,11 +14,11 @@
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 30px;
-  gap: 70px; /* 👈 bigger gap between left and right */
+  gap: 70px; 
   flex-wrap: wrap;
 }
 
-/* LEFT SIDE */
+
 .event-left {
   flex: 1 1 58%;
   padding: 20px;
@@ -29,7 +29,7 @@
 .event-left h1 {
   font-size: 26px;
   font-weight: 800;
-  color: #740724; /* 👈 dark red title */
+  color: #740724; 
   margin-bottom: 16px;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .description {
-    white-space: pre-line; /* 🔥 This tells browser to respect line breaks */
+    white-space: pre-line; 
     font-size: 15px;
     line-height: 1.5;
     color: #555;
@@ -52,9 +52,9 @@
   color: #777;
 }
 
-/* RIGHT SIDE */
+
 .event-right {
-  flex: 1 1 30%; /* 👈 smaller width */
+  flex: 1 1 30%; 
   padding: 20px;
   background-color: white;
   display: flex;
@@ -91,7 +91,7 @@
   background-color: #b4163e;
 }
 
-/* Responsive for smaller screens */
+
 @media (max-width: 768px) {
   .event-info-wrapper {
     flex-direction: column;
@@ -130,7 +130,7 @@
 }
 
 .modal-content h2 {
-  color: #c40000; /* strong red */
+  color: #c40000; 
   font-size: 22px;
   margin-bottom: 10px;
 }
@@ -165,7 +165,7 @@
   transition: background-color 0.2s, transform 0.1s ease-in-out;
 }
 
-/* ✅ Confirm (red) */
+
 .modal-buttons button:first-child {
   background-color: #c40000;
   color: white;
@@ -176,7 +176,7 @@
   transform: scale(1.02);
 }
 
-/* ❌ Cancel (white w/ red border) */
+
 .modal-buttons .cancel {
   background-color: white;
   border: 2px solid #c40000;

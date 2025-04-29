@@ -26,7 +26,7 @@ export class VerifyComponent {
       next: (response) => {
         console.log('Verification successful:', response);
         alert('Email verified successfully!');
-        this.router.navigate(['/authorization']); // 👈 Redirect to Login after success
+        this.router.navigate(['/authorization']);
       },
       error: (error) => {
         console.error('Verification failed:', error);

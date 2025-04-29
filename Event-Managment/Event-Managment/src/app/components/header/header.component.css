@@ -1,10 +1,10 @@
 .header {
   width: 100%;
-  height: 90px; /* 👈 FIXED height */
+  height: 90px; 
   padding: 0  50px;
   display: flex;
   justify-content: space-between;
-  align-items: center; /* 👈 keeps logo vertically centered */
+  align-items: center; 
   background-color: white;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
@@ -16,7 +16,7 @@
 }
 
 .logo-img {
-    height: 190px; /* 👈 size that fits nicely in 90px header */
+    height: 190px;
     width: auto;
     object-fit: contain;
     display: block;
@@ -40,7 +40,7 @@
   cursor: pointer;
   display: inline-flex;
   align-items: center;
-  padding: 8px 12px; /* ✅ match exact padding as other nav links */
+  padding: 8px 12px;
   line-height: 1; 
   top: -4px;
 }
@@ -57,7 +57,7 @@
   padding: 8px 12px;
 }
 
-/* 👇 This creates the red underline */
+
 .nav-links a::after,
 .dropbtn::after,
 .dropdown-content a::after {
@@ -77,17 +77,17 @@
   width: 100%;
 }
 
-/* Dropdown styles */
+
 .dropdown-wrapper {
   display: flex;
-  align-items: center; /* 🔥 center the Categories text vertically */
+  align-items: center; 
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: white;
-  border-radius: 8px; /* Rounded corners */
+  border-radius: 8px; 
   min-width: 200px;
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   padding: 8px 0;
@@ -98,7 +98,7 @@
 
 .dropdown-content a {
   color: #d51a4b;
-  padding: 12px 20px; /* Spacing so text doesn’t stick to edges */
+  padding: 12px 20px; 
   display: block;
   text-decoration: none;
   transition: background-color 0.2s ease;
@@ -147,14 +147,14 @@
     left: 0;
     height: 100vh;
     width: 100vw;
-    background-color: rgba(0, 0, 0, 0.4); /* 👈 translucent gray */
-    z-index: 1000; /* below dropdown but above page */
+    background-color: rgba(0, 0, 0, 0.4); 
+    z-index: 1000; 
 }
 
 .login-button {
   display: flex;
   align-items: center;
-  gap: 8px; /* 🔥 space between icon and text */
+  gap: 8px;
   padding: 8px 20px;
   background-color: #d51a4b;
   color: white;
@@ -200,7 +200,7 @@
 }
 
 .search-input {
-  padding: 8px 14px 8px 36px; /* 👈 padding-left makes space for icon */
+  padding: 8px 14px 8px 36px;
   border: 1px solid #ddd;
   border-radius: 6px;
   font-size: 14px;
@@ -211,7 +211,7 @@
 
 @media (max-width: 1024px) {
   .header {
-    overflow: visible !important; /* ✅ Don’t cut anything */
+    overflow: visible !important;
     position: relative;
     height: 80px !important;
     z-index: 1;
@@ -219,7 +219,7 @@
   }
 
   .logo-img {
-    max-height: 100px; /* 👈 smaller now */
+    max-height: 100px; 
     width: auto;
     object-fit: contain;
   }
@@ -230,7 +230,7 @@
 
   .nav-links a,
   .dropbtn {
-    font-size: 13px !important; /* 👈 force it to shrink */
+    font-size: 13px !important;
   }
 
   .category-icon {
@@ -254,7 +254,7 @@
   }
 
   .search-wrapper {
-    width: 150px; /* 👈 shorter search bar length */
+    width: 150px; 
     max-width: 150px;
   }
   
@@ -269,19 +269,19 @@
 
 @media (max-width: 850px) {
   .header {
-    height: auto !important; /* ✅ Let it expand */
+    height: auto !important;
     height: 80px !important;
-    overflow: visible !important; /* ✅ Don’t cut anything */
+    overflow: visible !important; 
     position: relative;
     z-index: 1;
   }
 
   .individual-categories {
-    display: none; /* 🔥 hides them below 850px */
+    display: none; 
   }
 
   .logo-img {
-    max-height: 150px; /* 👈 smaller now */
+    max-height: 150px; 
     width: auto;
     object-fit: contain;
   }
@@ -313,11 +313,11 @@
 
 @media (max-width: 540px) {
   .logo-img {
-    display: none; /* ❌ hide the logo completely */
+    display: none; 
   }
 
   .dropdown-wrapper {
-    order: -1; /* 🔥 move Categories to the left */
+    order: -1; 
   }
 
   .nav-links {
@@ -327,7 +327,7 @@
   }
 
   .search-wrapper {
-    max-width: 130px; /* smaller search bar */
+    max-width: 130px; 
   }
 
   .search-input {

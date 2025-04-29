@@ -4,7 +4,7 @@ export const adminGuard: CanActivateFn = (route, state) => {
   const userData = localStorage.getItem('user');
   const user = userData ? JSON.parse(userData) : null;
 
-  if (user?.role === 0) { // 0 = Admin
+  if (user?.role === 0) { // 0 is admin in backend
     return true;
   } else {
     alert("You don't have permission to access this page.");

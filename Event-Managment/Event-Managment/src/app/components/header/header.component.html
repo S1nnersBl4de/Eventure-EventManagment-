@@ -47,7 +47,7 @@
       <app-search-dropdown *ngIf="showDropdown" [events]="searchResults"></app-search-dropdown>
     </div>
 
-    <!-- 👇 IF user is logged in show only icon -->
+    <!--  IF user is logged in show only icon -->
     <ng-container *ngIf="userEmail; else loginButton">
       <div class="user-dropdown-wrapper" 
            (mouseenter)="openUserDropdown()" 
@@ -67,7 +67,7 @@
       </div>
     </ng-container>
 
-    <!-- 👇 ELSE show login normally -->
+    <!--  ELSE show login normally -->
     <ng-template #loginButton>
       <button class="login-button" routerLink="/login">
         <i class="fa-regular fa-user"></i>
