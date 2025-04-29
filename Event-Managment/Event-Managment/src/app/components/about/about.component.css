@@ -1,0 +1,25 @@
+.about-section {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+  color: #333;
+}
+
+.about-section h1 {
+  font-size: 32px;
+  color: #d51a4b;
+  margin-bottom: 20px;
+}
+
+.about-section p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.about-section .thank-you {
+  font-weight: bold;
+  margin-top: 40px;
+  color: #d51a4b;
+}

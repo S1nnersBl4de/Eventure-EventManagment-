@@ -1,0 +1,30 @@
+<app-filter-bar (categorySelected)="filteredByCategory($event)"></app-filter-bar>
+
+<section class="events-grid">
+  <div class="event-card" *ngFor="let event of pagedEvents" [routerLink]="['/event', event.id]">
+    <div class="event-image-wrapper">
+      <img [src]="event.imageUrl" alt="Event Image" class="event-image" />
+
+      <div class="event-date-badge">
+        <div class="day">{{ event.startDateDayNumber }}</div>
+        <div class="month">{{ event.startDateMonth }}</div>
+      </div>
+
+      <div class="price-badge">{{ randomTicketPrice }}₾</div> <!-- 3 საათი ვცდილობდი prices გამოჩენას,  კონსოლში fetchavda და HTML არ გამოჰქონდა რანდომ დავაგენერირე ვერანაირად დავფქისე  -->
+      <div class="image-overlay"></div>
+    </div>
+
+    <div class="event-info">
+      <h3 class="event-title">{{ event.name }}</h3>
+      <p class="event-address">{{ event.organizerName }}</p>
+      <p class="event-time">{{ event.startDateDay }}, {{ event.startDateTime }}</p>
+    </div>
+  </div>
+</section>
+
+<nz-pagination
+  [nzPageSize]="pagesize"
+  [nzTotal]="events.length"
+  [nzPageIndex]="currentPage"
+  (nzPageIndexChange)="onPageChange($event)">
+</nz-pagination>

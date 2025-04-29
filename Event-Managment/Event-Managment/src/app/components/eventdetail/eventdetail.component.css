@@ -1,0 +1,189 @@
+.event-detail-container {
+  padding: 45px 124px;
+}
+
+.event-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.event-info-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+  gap: 70px; /* 👈 bigger gap between left and right */
+  flex-wrap: wrap;
+}
+
+/* LEFT SIDE */
+.event-left {
+  flex: 1 1 58%;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.event-left h1 {
+  font-size: 26px;
+  font-weight: 800;
+  color: #740724; /* 👈 dark red title */
+  margin-bottom: 16px;
+}
+
+.event-left .description {
+  margin-bottom: 20px;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.description {
+    white-space: pre-line; /* 🔥 This tells browser to respect line breaks */
+    font-size: 15px;
+    line-height: 1.5;
+    color: #555;
+  }
+
+.location-info {
+  font-size: 14px;
+  color: #777;
+}
+
+/* RIGHT SIDE */
+.event-right {
+  flex: 1 1 30%; /* 👈 smaller width */
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.date-time {
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+.organizer {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+.ticket-button {
+  width: 100%;
+  padding: 14px 0;
+  background-color: #d51a4b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ticket-button:hover {
+  background-color: #b4163e;
+}
+
+/* Responsive for smaller screens */
+@media (max-width: 768px) {
+  .event-info-wrapper {
+    flex-direction: column;
+  }
+
+  .event-left, .event-right {
+    flex: 1 1 100%;
+    padding: 20px;
+    margin-top: 20px;
+  }
+}
+
+.purchase-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 16px;
+  width: 360px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
+.modal-content h2 {
+  color: #c40000; /* strong red */
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.modal-content input {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: border 0.3s;
+}
+
+.modal-content input:focus {
+  border-color: #c40000;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.modal-buttons button {
+  flex: 1;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.1s ease-in-out;
+}
+
+/* ✅ Confirm (red) */
+.modal-buttons button:first-child {
+  background-color: #c40000;
+  color: white;
+}
+
+.modal-buttons button:first-child:hover {
+  background-color: #a30000;
+  transform: scale(1.02);
+}
+
+/* ❌ Cancel (white w/ red border) */
+.modal-buttons .cancel {
+  background-color: white;
+  border: 2px solid #c40000;
+  color: #c40000;
+}
+
+.modal-buttons .cancel:hover {
+  background-color: #fbe9e9;
+  transform: scale(1.02);
+}

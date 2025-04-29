@@ -1,0 +1,65 @@
+<app-header></app-header>
+
+<div class="event-detail-container" *ngIf="event">
+  <div class="event-image">
+    <img [src]="event.imageUrl" alt="Event Image" />
+  </div>
+
+  <div class="event-info-wrapper">
+    <!-- LEFT SIDE -->
+    <div class="event-left">
+      <h1>{{ event.name }}</h1>
+      <p class="description" [innerText]="event.description"></p>
+
+      <div class="location-info">
+        <span>{{ event.location.city }}</span> |
+        <span>{{ event.location.address }}</span>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="event-right">
+      <div class="date-time">
+        <span>{{ event.startDateDay }}</span> /
+        <span>{{ event.startDateDayNumber }}</span>
+        <span>{{ event.startDateMonth }}</span>,
+        <span>{{ event.startDateTime }}</span>
+      </div>
+
+      <div class="organizer">
+        Organized by: <strong>{{ event.organizerName }}</strong>
+      </div>
+
+      <!-- 🎟️ Ticket Button -->
+      <button class="ticket-button" (click)="showPurchasePopup = true">
+        Ticket Price: {{ ticket?.price || randomTicketPrice }}₾
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- 💬 Purchase Modal -->
+<div class="purchase-modal" *ngIf="showPurchasePopup">
+  <div class="modal-content">
+    <h2>Buy Ticket</h2>
+
+    <input
+      type="email"
+      placeholder="Enter your email"
+      [(ngModel)]="buyerEmail"
+    />
+
+    <input
+      type="text"
+      placeholder="Promo code (optional)"
+      [(ngModel)]="promoCode"
+    />
+
+    <div class="modal-buttons">
+      <button (click)="submitPurchase()">Confirm</button>
+      <button class="cancel" (click)="showPurchasePopup = false">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

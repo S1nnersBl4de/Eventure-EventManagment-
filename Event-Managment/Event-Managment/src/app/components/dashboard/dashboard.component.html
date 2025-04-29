@@ -1,0 +1,36 @@
+<app-header></app-header>
+
+<div class="dashboard-container">
+  <h2>📊 Event Ticket Analytics</h2>
+
+  <!-- Search Bar -->
+  <input
+    type="text"
+    [(ngModel)]="searchText"
+    (input)="onSearchInput()"
+    class="search-input"
+    placeholder="Search event by name..."
+  />
+
+  <!-- Event Results -->
+  <ul class="event-list" *ngIf="searchResults.length > 0">
+    <li *ngFor="let event of searchResults" class="event-item">
+      <span>{{ event.name }}</span>
+      <button (click)="fetchAnalyticsById(event.id)">View Analytics</button>
+    </li>
+  </ul>
+
+  <!-- Analytics Card -->
+  <div *ngIf="analytics" class="analytics-card">
+    <h3>{{ analytics.eventName }}</h3>
+    <div class="analytics-grid">
+      <div><strong>Total Tickets:</strong> {{ analytics.totalTickets }}</div>
+      <div><strong>Tickets Sold:</strong> {{ analytics.ticketsSold }}</div>
+      <div><strong>Available:</strong> {{ analytics.availableTickets }}</div>
+      <div><strong>Revenue:</strong> {{ analytics.totalRevenue }}₾</div>
+      <div><strong>Popula Category:</strong> {{ analytics.mostPopularCategory }}</div>
+    </div>
+  </div>
+</div>
+
+<app-footer></app-footer>

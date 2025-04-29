@@ -1,0 +1,80 @@
+<header class="header">
+  <div class="left-section">
+    <img src="/logo-transparent.png" alt="Eventure Logo" class="logo-img" routerLink="/" />
+
+    <nav class="nav-links">
+      <div class="dropdown-wrapper" (mouseenter)="opendropdown()" (mouseleave)="closeDropdown()">
+        <span class="dropbtn">Categories</span>
+        <div class="dropdown-content" *ngIf="isDropdownOpen">
+          <a routerLink="/concerts">Music / Concerts</a>
+          <a routerLink="/theatres">Theatres</a>
+          <a routerLink="/festivals">Festivals</a>
+          <a routerLink="/about">About</a>
+        </div>
+      </div>
+
+      <div class="individual-categories">
+        <a routerLink="/concerts">
+          <img src="/stage.png" alt="Concert" class="category-icon" />
+          Music / Concerts
+        </a>
+        <a routerLink="/theatres">
+          <img src="/theatre.png" alt="Theatre" class="category-icon" />
+          Theatres
+        </a>
+        <a routerLink="/festivals">
+          <img src="/festival.png" alt="Festival" class="category-icon" />
+          Festivals
+        </a>
+      </div>
+    </nav>
+  </div>
+
+  <div class="right-section">
+    <div class="search-wrapper">
+      <i class="fa-solid fa-magnifying-glass search-icon"></i>
+
+      <input
+        type="text"
+        placeholder="Search events..."
+        class="search-input"
+        [(ngModel)]="searchText"
+        (input)="onSearchInput()"
+        (focus)="onSearchInput()"
+        (blur)="closeDropdown()"
+      />
+
+      <app-search-dropdown *ngIf="showDropdown" [events]="searchResults"></app-search-dropdown>
+    </div>
+
+    <!-- 👇 IF user is logged in show only icon -->
+    <ng-container *ngIf="userEmail; else loginButton">
+      <div class="user-dropdown-wrapper" 
+           (mouseenter)="openUserDropdown()" 
+           (mouseleave)="closeUserDropdown()">
+        <button class="login-button">
+          <i class="fa-regular fa-user"></i>
+        </button>
+
+        <div class="user-dropdown" *ngIf="isUserDropdownOpen">
+          <p>Your Gmail:</p>
+          <strong>{{ userEmail }}</strong>
+
+          <hr />
+
+          <button (click)="logout()" class="logout-button">Logout</button>
+        </div>
+      </div>
+    </ng-container>
+
+    <!-- 👇 ELSE show login normally -->
+    <ng-template #loginButton>
+      <button class="login-button" routerLink="/login">
+        <i class="fa-regular fa-user"></i>
+        <span>Login</span>
+      </button>
+    </ng-template>
+  </div>
+
+  <div class="dropdown-overlay" *ngIf="isDropdownOpen" [style.pointer-events]="isDropdownOpen ? 'auto' : 'none'"></div>
+</header>

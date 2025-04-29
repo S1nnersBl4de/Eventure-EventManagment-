@@ -1,0 +1,24 @@
+.filter-bar {
+    width: 100%;
+    padding: 16px 0;
+    background-color: #8B0000;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* slight shadow bottom */
+}
+  
+.filter-button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 600; /* 🔥 more bold */
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease; /* 💥 use transform instead of font-size */
+    display: inline-block;
+}
+  
+.filter-button:hover {
+    transform: scale(1.15);
+}

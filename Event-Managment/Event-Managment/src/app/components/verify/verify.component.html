@@ -1,0 +1,28 @@
+<app-header></app-header>
+
+<div class="auth-form-box">
+  <h2>Verify Email</h2>
+  <form (ngSubmit)="onVerify()" #verifyForm="ngForm">
+    <input
+      type="email"
+      name="email"
+      [(ngModel)]="verifyData.email"
+      required
+      placeholder="Email"
+    />
+    <input
+      type="text"
+      name="verificationCode"
+      [(ngModel)]="verifyData.verificationCode"
+      required
+      placeholder="Verification Code"
+    />
+    <button type="submit" [disabled]="verifyForm.invalid">Verify</button>
+  </form>
+
+  <div class="small-link">
+    <a routerLink="/authorization">Back to Login</a>
+  </div>
+</div>
+
+<app-footer></app-footer>
