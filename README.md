@@ -2,6 +2,15 @@
 
 A full-stack event management system where users can view events, purchase tickets, and receive confirmation emails with QR codes.
 
+
+## ✨ Quick Folder Info
+> 📌 **IMPORTANT: Folder naming**
+- ✅ `EventManagment` = **Backend** (ASP.NET Core API)
+- ✅ `Event-Managment` = **Frontend** (Angular App)
+- ✅ Inside `EventManagment/backend/sql-scripts/` you will find the **SQL script (`initial-database.sql`)** with schema and local data.
+
+---
+
 ---
 
 ##  Features
@@ -51,7 +60,11 @@ Open SQL Server Management Studio (SSMS) or Visual Studio SQL Explorer
 
 Create a new database named: EventManagment
 
-Run the script to create all necessary tables and data
+Run the .sql script to:
+
+✅ Create all necessary tables
+
+✅ Insert initial local data
 
 
 

@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "B:\\Desktop\\EventManagment\\",
+  "WorkspaceRootPath": "B:\\Desktop\\EventureProject\\EventManagment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|b:\\desktop\\eventmanagment\\eventmanagment\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|b:\\desktop\\eventureproject\\eventmanagment\\eventmanagment\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|solutionrelative:eventmanagment\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|b:\\desktop\\eventmanagment\\eventmanagment\\enums\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|solutionrelative:eventmanagment\\enums\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|b:\\desktop\\eventmanagment\\eventmanagment\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|solutionrelative:eventmanagment\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|b:\\desktop\\eventmanagment\\eventmanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|solutionrelative:eventmanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|b:\\desktop\\eventmanagment\\eventmanagment\\dto\\post\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|solutionrelative:eventmanagment\\dto\\post\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|b:\\desktop\\eventmanagment\\eventmanagment\\services\\implementations\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|solutionrelative:eventmanagment\\services\\implementations\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EventManagment/True/SqlTable/dbo.Events.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|b:\\desktop\\eventmanagment\\eventmanagment\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|b:\\desktop\\eventureproject\\eventmanagment\\eventmanagment\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|solutionrelative:eventmanagment\\services\\implementations\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|b:\\desktop\\eventureproject\\eventmanagment\\eventmanagment\\dto\\post\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|solutionrelative:eventmanagment\\dto\\post\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|b:\\desktop\\eventureproject\\eventmanagment\\eventmanagment\\enums\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|solutionrelative:eventmanagment\\enums\\userroles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|b:\\desktop\\eventureproject\\eventmanagment\\eventmanagment\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|solutionrelative:eventmanagment\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|b:\\desktop\\eventureproject\\eventmanagment\\eventmanagment\\services\\implementations\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|solutionrelative:eventmanagment\\services\\implementations\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|b:\\desktop\\eventureproject\\eventmanagment\\eventmanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6775B518-FA0A-4D15-8965-7970E8CC49A9}|EventManagment\\EventManagment.csproj|solutionrelative:eventmanagment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,11 +47,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Users.cs",
-              "DocumentMoniker": "B:\\Desktop\\EventManagment\\EventManagment\\models\\Users.cs",
+              "DocumentMoniker": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\models\\Users.cs",
               "RelativeDocumentMoniker": "EventManagment\\models\\Users.cs",
-              "ToolTip": "B:\\Desktop\\EventManagment\\EventManagment\\models\\Users.cs",
+              "ToolTip": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\models\\Users.cs",
               "RelativeToolTip": "EventManagment\\models\\Users.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-23T19:00:26.217Z",
               "EditorCaption": ""
@@ -60,9 +60,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "UserService.cs",
-              "DocumentMoniker": "B:\\Desktop\\EventManagment\\EventManagment\\Services\\Implementations\\UserService.cs",
+              "DocumentMoniker": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\Services\\Implementations\\UserService.cs",
               "RelativeDocumentMoniker": "EventManagment\\Services\\Implementations\\UserService.cs",
-              "ToolTip": "B:\\Desktop\\EventManagment\\EventManagment\\Services\\Implementations\\UserService.cs",
+              "ToolTip": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\Services\\Implementations\\UserService.cs",
               "RelativeToolTip": "EventManagment\\Services\\Implementations\\UserService.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAYwAYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -70,11 +70,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "RegisterRequest.cs",
-              "DocumentMoniker": "B:\\Desktop\\EventManagment\\EventManagment\\DTO\\POST\\RegisterRequest.cs",
+              "DocumentMoniker": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\DTO\\POST\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "EventManagment\\DTO\\POST\\RegisterRequest.cs",
-              "ToolTip": "B:\\Desktop\\EventManagment\\EventManagment\\DTO\\POST\\RegisterRequest.cs",
+              "ToolTip": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\DTO\\POST\\RegisterRequest.cs",
               "RelativeToolTip": "EventManagment\\DTO\\POST\\RegisterRequest.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -82,20 +82,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "UserRoles.cs",
-              "DocumentMoniker": "B:\\Desktop\\EventManagment\\EventManagment\\ENUMS\\UserRoles.cs",
+              "DocumentMoniker": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\ENUMS\\UserRoles.cs",
               "RelativeDocumentMoniker": "EventManagment\\ENUMS\\UserRoles.cs",
-              "ToolTip": "B:\\Desktop\\EventManagment\\EventManagment\\ENUMS\\UserRoles.cs",
+              "ToolTip": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\ENUMS\\UserRoles.cs",
               "RelativeToolTip": "EventManagment\\ENUMS\\UserRoles.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-23T17:41:29.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-23T17:41:29.236Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "dbo.Events [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EventManagment/True/SqlTable/dbo.Events.sql",
               "ToolTip": "dbo.Events [Data]",
@@ -104,11 +103,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Event.cs",
-              "DocumentMoniker": "B:\\Desktop\\EventManagment\\EventManagment\\models\\Event.cs",
+              "DocumentMoniker": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\models\\Event.cs",
               "RelativeDocumentMoniker": "EventManagment\\models\\Event.cs",
-              "ToolTip": "B:\\Desktop\\EventManagment\\EventManagment\\models\\Event.cs",
+              "ToolTip": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\models\\Event.cs",
               "RelativeToolTip": "EventManagment\\models\\Event.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAzwBQAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -116,11 +115,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "EventService.cs",
-              "DocumentMoniker": "B:\\Desktop\\EventManagment\\EventManagment\\Services\\Implementations\\EventService.cs",
+              "DocumentMoniker": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\Services\\Implementations\\EventService.cs",
               "RelativeDocumentMoniker": "EventManagment\\Services\\Implementations\\EventService.cs",
-              "ToolTip": "B:\\Desktop\\EventManagment\\EventManagment\\Services\\Implementations\\EventService.cs",
+              "ToolTip": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\Services\\Implementations\\EventService.cs",
               "RelativeToolTip": "EventManagment\\Services\\Implementations\\EventService.cs",
               "ViewState": "AQIAAC0AAAAAAAAAAAAYwGEAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -128,11 +127,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
-              "DocumentMoniker": "B:\\Desktop\\EventManagment\\EventManagment\\Program.cs",
+              "DocumentMoniker": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\Program.cs",
               "RelativeDocumentMoniker": "EventManagment\\Program.cs",
-              "ToolTip": "B:\\Desktop\\EventManagment\\EventManagment\\Program.cs",
+              "ToolTip": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\Program.cs",
               "RelativeToolTip": "EventManagment\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

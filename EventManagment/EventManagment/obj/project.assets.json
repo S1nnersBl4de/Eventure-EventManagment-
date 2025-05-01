@@ -5121,11 +5121,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "B:\\Desktop\\EventManagment\\EventManagment\\EventManagment.csproj",
+      "projectUniqueName": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\EventManagment.csproj",
       "projectName": "EventManagment",
-      "projectPath": "B:\\Desktop\\EventManagment\\EventManagment\\EventManagment.csproj",
+      "projectPath": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\EventManagment.csproj",
       "packagesPath": "C:\\Users\\lasha\\.nuget\\packages\\",
-      "outputPath": "B:\\Desktop\\EventManagment\\EventManagment\\obj\\",
+      "outputPath": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lasha\\AppData\\Roaming\\NuGet\\NuGet.Config",

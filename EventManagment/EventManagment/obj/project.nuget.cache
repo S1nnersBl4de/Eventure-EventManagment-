@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HWXBM8/k9gg=",
+  "dgSpecHash": "/KipSUTxhk0=",
   "success": true,
-  "projectFilePath": "B:\\Desktop\\EventManagment\\EventManagment\\EventManagment.csproj",
+  "projectFilePath": "B:\\Desktop\\EventureProject\\EventManagment\\EventManagment\\EventManagment.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lasha\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\lasha\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
