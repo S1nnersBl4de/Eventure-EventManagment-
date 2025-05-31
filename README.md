@@ -32,6 +32,14 @@ A full-stack event management system where users can view events, purchase ticke
 ├── frontend/  → Angular Application (TypeScript)
 └── README.md  → Project documentation
 
+
+🧩 C4 Model Architecture
+This project follows the C4 Model to illustrate the system architecture at different levels:
+
+[📄 View C4 Model PDF](./docs/C4_Model.pdf)
+(Includes Context, Container, Component, and Code-level views in one document)
+
+
 ⚙️ Backend Setup (ASP.NET Core)
 
 Navigate to the backend/ folder: cd EventManagment
